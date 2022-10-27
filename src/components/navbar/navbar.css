@@ -1,0 +1,548 @@
+.navbar-component {
+    width: 100%;
+}
+
+.navbar-component .cart {
+    position: fixed;
+    top: 30%;
+    right: 0;
+    z-index: 10;
+    width: 85px;
+    height: 90px;
+    background: #004583;
+    border: 1px solid #FFFFFF;
+    border-right: none;
+    border-radius: 50px 0 0 50px;
+    box-shadow: 0px 4px 38px #004583;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-component .cart .icon {
+    font-size: 36px;
+    color: #FFFFFF;
+    margin-left: 10px;
+}
+
+.navbar-component .top {
+    width: 100%;
+    padding: 10px 125px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.navbar-component .top .logo {
+    width: 150px;
+}
+
+.navbar-component .top .left > div {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+
+.navbar-component .top .left > div:last-child {
+    margin-bottom: 0;
+}
+
+.navbar-component .top .left > div img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+.navbar-component .top .left > div p {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    color: #000000;
+}
+
+.navbar-component .top .left > div a {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    text-decoration-line: underline;
+    color: #004583;
+}
+
+.navbar-component .top .right > div {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: flex-start;
+}
+
+.navbar-component .top .right > div:last-child {
+    margin-bottom: 0;
+}
+
+.navbar-component .top .right > div img {
+    margin: 3px 10px;
+    width: 12px;
+}
+
+.navbar-component .top .right > div p {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: -0.5px;
+    color: #000000;
+}
+
+.navbar-component .top .right > div p a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.navbar-component .top .right > div p span {
+    color: #BB2822;
+}
+
+.navbar-component .bottom {
+    border-bottom: 1px solid #EFEFEF;
+    border-top: 1px solid #EFEFEF;
+}
+
+.navbar-component .bottom .links {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-component .bottom .links a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    color: #000000;
+    margin-right: 50px;
+    text-decoration: none;
+}
+
+.navbar-component .bottom {
+    width: 100%;
+    padding: 10px 125px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-component .bottom .input-wrap {
+    width: 330px;
+    height: 35px;
+    position: relative;
+}
+
+.navbar-component .bottom .input-wrap input {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #004583;
+    border-radius: 47px;
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    color: #004583;
+    outline: none;
+}
+
+.navbar-component .bottom .input-wrap .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    font-size: 16px;
+    color: #BB2822;
+}
+
+.navbar-component .mobile-navbar {
+    width: 100%;
+    display: none;
+}
+
+.navbar-component .mobile-navbar .mobile-top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #EFEFEF;
+    position: relative;
+}
+
+.navbar-component .mobile-navbar .mobile-top .top-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: 1px solid #EFEFEF;
+    background-color: #fff;
+    z-index: 102;
+}
+
+.navbar-component .mobile-navbar .mobile-top .top-wrap > div {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-component .mobile-navbar .mobile-top .top-wrap > div img {
+    width: 14px;
+    height: 14px;
+}
+
+.navbar-component .mobile-navbar .mobile-top .top-wrap > div a {
+    font-size: 14px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.5px;
+    color: #004583;
+    margin-left: 5px;
+}
+
+.navbar-component .mobile-navbar .mobile-top .logo {
+    width: 100px;
+}
+
+.navbar-component .mobile-navbar .mobile-top .icon {
+    font-size: 36px;
+    color: #004583;
+    cursor: pointer;
+}
+
+.navbar-component .mobile-navbar .mobile-top .menu {
+    position: absolute;
+    height: auto;
+    background: #FFFFFF;
+    border-radius: 0px 0px 30px 30px;
+    top: 74px;
+    right: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    transition: 0.3s;
+}
+
+.navbar-component .mobile-navbar .mobile-top .menu.menu-false {
+    top: -100vh;
+}
+
+.navbar-component .mobile-navbar .mobile-top .menu .topp {
+    width: 100%;
+    border-bottom: 1px solid #EFEFEF;
+    padding: 20px;
+}
+
+.navbar-component .mobile-navbar .mobile-top .menu .topp > div {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.navbar-component .mobile-navbar .mobile-top .menu .topp > div img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.navbar-component .mobile-navbar .mobile-top .menu .topp > div p {
+    margin: 0;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    color: #000000;
+}
+
+.navbar-component .mobile-navbar .mobile-top .menu .topp > div a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    color: #004583;
+}
+
+.navbar-component .mobile-navbar .mobile-top .menu .center {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #EFEFEF;
+}
+
+.navbar-component .mobile-navbar .mobile-top .menu .center a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.navbar-component .mobile-navbar .mobile-top .menu .bot {
+    width: 100%;
+    padding: 20px;
+    border-bottom: 1px solid #efefef;
+}
+
+.navbar-component .mobile-navbar .mobile-top .menu .bot span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #A6A6A6;
+}
+
+.navbar-component .mobile-navbar .mobile-top .menu .bot div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5px;
+}
+
+.navbar-component .mobile-navbar .mobile-top .menu .bot div p {
+    margin: 0;
+}
+
+.navbar-component .mobile-navbar .mobile-top .menu .bot div img {
+    font-size: 10px;
+}
+
+.navbar-component .mobile-navbar .mobile-top .menu .bot div a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: -0.5px;
+    color: #000000;
+    text-decoration: none;
+}
+
+.navbar-component .mobile-navbar .mobile-top .menu .bot div p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: right;
+    letter-spacing: -0.5px;
+    color: #BB2822;
+}
+
+.navbar-component .mobile-navbar .mobile-top .menu .bot2 {
+    border: none;
+}
+
+.navbar-component .mobile-navbar .mobile-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-component .mobile-navbar .mobile-bottom .left {
+    width: 50%;
+    height: 50px;
+    padding: 10px;
+    background-color: #BB2822;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-component .mobile-navbar .mobile-bottom .left p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    margin: 0;
+}
+
+.navbar-component .mobile-navbar .mobile-bottom .right {
+    width: 50%;
+    height: 50px;
+    background-color: #004583;
+    position: relative;
+}
+
+.navbar-component .mobile-navbar .mobile-bottom .right input {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    outline: none;
+}
+
+.navbar-component .mobile-navbar .mobile-bottom .right input::placeholder {
+    color: #FFFFFF;
+}
+
+.navbar-component .mobile-navbar .mobile-bottom .right .icon {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 10px;
+    color: #FFFFFF;
+    font-size: 20px;
+}
+
+@media (max-width: 1400px) {
+    .navbar-component .top {
+        width: 100%;
+        padding: 10px 50px;
+    }
+    .navbar-component .bottom {
+        width: 100%;
+        padding: 10px 50px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .navbar-component .cart {
+        top: 35%;
+        width: 65px;
+        height: 75px;
+        border-radius: 50px 0 0 50px;
+    }
+    .navbar-component .cart .icon {
+        font-size: 32px;
+        color: #FFFFFF;
+        margin-left: 10px;
+    }
+    .navbar-component .bottom .links a {
+        font-size: 14px;
+        margin-right: 30px;
+    }
+    .navbar-component .bottom .input-wrap {
+        width: 250px;
+        height: 30px;
+    }
+    .navbar-component .bottom .input-wrap input {
+        border-radius: 47px;
+        padding: 10px;
+        font-size: 14px;
+    }
+    .navbar-component .bottom .input-wrap .icon {
+        right: 10px;
+        font-size: 16px;
+    }
+    .navbar-component .top .logo {
+        width: 120px;
+    }
+    .navbar-component .top .left > div {
+        margin-bottom: 10px;
+    }
+    .navbar-component .top .left > div img {
+        width: 16px;
+        margin-right: 5px;
+    }
+    .navbar-component .top .left > div p {
+        font-size: 14px;
+    }
+    .navbar-component .top .left > div a {
+        font-size: 14px;
+    }
+    .navbar-component .top .right > div {
+        margin-bottom: 10px;
+    }
+    .navbar-component .top .right > div img {
+        margin: 3px 10px;
+        width: 10px;
+    }
+    .navbar-component .top .right > div p {
+        font-size: 13px;
+    }
+}
+
+@media (max-width: 992px) {
+    .navbar-component .top {
+        padding: 10px 20px;
+    }
+    .navbar-component .bottom {
+        width: 100%;
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-component .top {
+        display: none;
+    }
+    .navbar-component .bottom {
+        display: none;
+    }
+    .navbar-component .mobile-navbar {
+        display: block;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-component .cart {
+        display: none;
+    }
+    .navbar-component .mobile-navbar .mobile-top .menu .topp {
+        padding: 10px;
+    }
+    .navbar-component .mobile-navbar .mobile-top .menu .topp > div {
+        margin-bottom: 10px;
+    }
+    .navbar-component .mobile-navbar .mobile-top .menu .topp > div img {
+        width: 16px;
+        height: 16px;
+        margin-right: 5px;
+    }
+    .navbar-component .mobile-navbar .mobile-top .menu .topp > div p {
+        font-size: 14px;
+    }
+    .navbar-component .mobile-navbar .mobile-top .menu .topp > div a {
+        font-size: 14px;
+    }
+    .navbar-component .mobile-navbar .mobile-top .menu .center {
+        padding: 10px;
+    }
+    .navbar-component .mobile-navbar .mobile-top .menu .center a {
+        font-weight: 700;
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .navbar-component .mobile-navbar .mobile-top .menu .center a:last-child {
+        margin-bottom: 0;
+    }
+    .navbar-component .mobile-navbar .mobile-top .menu .bot {
+        padding: 10px;
+    }
+}

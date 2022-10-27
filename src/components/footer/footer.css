@@ -1,0 +1,180 @@
+.footer-component {
+    width: 100%;
+    background-color: #fafafa;
+}
+
+.footer-component .top {
+    width: 100%;
+    display: flex;
+    padding: 30px 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-component .top .logo {
+    width: 150px;
+}
+
+.footer-component .top p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    color: #BEBEBE;
+    margin: 0;
+}
+
+.footer-component .top > div {
+    display: flex;
+    align-items: center;
+}
+
+.footer-component .top > div img {
+    width: 150px;
+    margin-left: 10px;
+}
+
+.footer-component .links-wrap {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    border-top: 1px solid #E7E6E6;
+    border-bottom: 1px solid #E7E6E6;
+}
+
+.footer-component .links-wrap .ustun {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-component .links-wrap .ustun a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    color: #656D75;
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.footer-component .links-wrap .ustun a:last-child {
+    margin: 0;
+}
+
+.footer-component .links-wrap .ustun2 a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    letter-spacing: -0.5px;
+    color: #004583;
+    text-decoration: none;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #E7E6E6;
+    text-align: center;
+}
+
+.footer-component .links-wrap .ustun a strong {
+    color: #071828;
+}
+
+.footer-component .links-wrap .ustun3 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-component .links-wrap .ustun3 img {
+    width: 88px;
+    height: 31px;
+}
+
+.footer-component .bottom {
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-component .bottom span {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #BEBEBE;
+}
+
+@media (max-width: 1400px) {
+    .footer-component .top {
+        padding: 20px;
+    }
+    .footer-component .top .logo {
+        width: 120px;
+    }
+    .footer-component .top p {
+        font-size: 14px;
+    }
+    .footer-component .top > div img {
+        width: 120px;
+        margin-left: 10px;
+        margin-top: 5px;
+    }
+    .footer-component .links-wrap .ustun a {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .footer-component .links-wrap .ustun2 a {
+        font-size: 14px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+    }
+    .footer-component .links-wrap .ustun3 img {
+        width: 70px;
+        height: 20px;
+    }
+    .footer-component .bottom {
+        padding: 10px 20px;
+    }
+    .footer-component .bottom span {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .footer-component .links-wrap {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        padding: 10px;
+    }
+    .footer-component .links-wrap .ustun {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .footer-component .top {
+        flex-direction: column;
+    }
+    .footer-component .top .logo {
+        width: 120px;
+        margin: 10px 0;
+    }
+    .footer-component .top p {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 576px) {
+    .footer-component .links-wrap {
+        grid-template-columns: auto auto;
+    }
+    .footer-component .links-wrap .ustun {
+        width: auto;
+        margin-bottom: 20px;
+    }
+}
