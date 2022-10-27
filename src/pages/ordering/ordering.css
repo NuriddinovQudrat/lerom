@@ -78,6 +78,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+    margin-bottom: 20px;
 }
 
 .ordering-page form .qator .left {
@@ -108,7 +109,7 @@
     display: flex;
     align-items: center;
     border-bottom: 1px solid #EFEFEF;
-    padding: 20px;
+    padding: 25px 20px;
 }
 
 .ordering-page form .qator .left > div:last-child {
@@ -162,4 +163,329 @@
     font-size: 20px;
     letter-spacing: -0.5px;
     color: #071828;
+}
+
+.ordering-page form .qator .ustun {
+    width: calc(100% - 420px);
+    display: flex;
+    justify-content: space-between;
+}
+
+.ordering-page form .qator .ustun .bir {
+    width: calc((100% - 20px) / 3);
+    background: #FFFFFF;
+    box-shadow: 0px 10px 52px -8px rgba(0, 0, 0, 0.17);
+    border-radius: 8px;
+}
+
+.ordering-page form .qator .ustun .bir > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #EFEFEF;
+    padding: 25px 20px;
+}
+
+.ordering-page form .qator .ustun .bir > div:last-child {
+    border: none;
+}
+
+.ordering-page form .qator .ustun .bir > div input {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.ordering-page form .qator .ustun .bir > div label {
+    width: calc(100% - 28px);
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+    color: #8A8F94;
+}
+
+.ordering-page form .qator .ustun .ikki {
+    width: calc(((100% - 20px) / 3) * 2);
+}
+
+.ordering-page form .qator .ustun .ikki .top {
+    width: 100%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ordering-page form .qator .ustun .ikki .top .ust {
+    width: calc(50% - 10px);
+    background: #FFFFFF;
+    box-shadow: 0px 10px 52px -8px rgba(0, 0, 0, 0.17);
+    border-radius: 8px;
+}
+
+.ordering-page form .qator .ustun .ikki .top .ust > div {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #EFEFEF;
+    padding: 25px 20px;
+}
+
+.ordering-page form .qator .ustun .ikki .top .ust > div:last-child {
+    border: none;
+}
+
+.ordering-page form .qator .ustun .ikki .top .ust > div input {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    margin-left: 0;
+}
+
+.ordering-page form .qator .ustun .ikki .top .ust > div label {
+    width: calc(100% - 28px);
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 18px;
+    letter-spacing: -0.5px;
+    color: #8A8F94;
+}
+
+.ordering-page form .qator .ustun .ikki .bottom {
+    width: 100%;
+    background: #FFFFFF;
+    box-shadow: 0px 10px 52px -8px rgba(0, 0, 0, 0.17);
+    border-radius: 8px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.ordering-page form .qator .ustun .ikki .bottom p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    color: #071828;
+    margin: 0;
+}
+
+.ordering-page form .qator .ustun .ikki .bottom span {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+    color: #BB2822;
+}
+
+.ordering-page form .btn-wrap {
+    width: 243px;
+    height: 67px;
+    border-radius: 2px;
+    margin-left: auto;
+}
+
+.ordering-page form .btn-wrap button {
+    width: 100%;
+    height: 100%;
+    background: #004583;
+    border-radius: 2px;
+    border: none;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+@media (max-width: 1400px) {
+    .ordering-page {
+        width: 100%;
+        padding: 50px;
+        min-height: 100vh;
+    }
+}
+
+@media (max-width: 992px) {
+    .ordering-page {
+        width: 100%;
+        padding: 20px;
+        min-height: 100vh;
+    }
+    .ordering-page form .user {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .ordering-page form .user > div {
+        margin-bottom: 10px;
+    }
+    .ordering-page form .user > div input {
+        width: 32%;
+        height: 46px;
+        font-size: 18px;
+    }
+    .ordering-page form .user textarea {
+        height: 100px;
+        font-size: 18px;
+    }
+    .ordering-page form .qator {
+        margin-bottom: 10px;
+    }
+    .ordering-page form .qator .left {
+        width: 350px;
+    }
+    .ordering-page form .qator .left > div {
+        padding: 15px 10px;
+    }
+    .ordering-page form .qator .left > div input {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .ordering-page form .qator .left > div label {
+        width: calc(100% - 24px);
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .ordering-page form .qator .right {
+        width: calc(100% - 360px);
+    }
+    .ordering-page form .qator .right > div {
+        width: 100%;
+        padding: 0 10px;
+        margin-bottom: 10px;
+    }
+    .ordering-page form .qator .right > div input {
+        height: 46px;
+        font-size: 18px;
+    }
+    .ordering-page form .qator .ustun {
+        width: calc(100% - 360px);
+    }
+    .ordering-page form .qator .ustun .bir {
+        width: calc((100% - 10px) / 3);
+    }
+    .ordering-page form .qator .ustun .bir > div {
+        padding: 15px 10px;
+    }
+    .ordering-page form .qator .ustun .bir > div input {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .ordering-page form .qator .ustun .bir > div label {
+        width: calc(100% - 24px);
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .ordering-page form .qator .ustun .ikki {
+        width: calc(((100% - 10px) / 3) * 2);
+    }
+    .ordering-page form .qator .ustun .ikki .top {
+        margin-bottom: 10px;
+    }
+    .ordering-page form .qator .ustun .ikki .top .ust {
+        width: calc(50% - 5px);
+    }
+    .ordering-page form .qator .ustun .ikki .top .ust > div {
+        padding: 15px 10px;
+    }
+    .ordering-page form .qator .ustun .ikki .top .ust > div input {
+        width: 20px;
+        height: 20px;
+        margin-right: 10px;
+    }
+    .ordering-page form .qator .ustun .ikki .top .ust > div label {
+        width: calc(100% - 24px);
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .ordering-page form .qator .ustun .ikki .bottom {
+        padding: 10px;
+    }
+    .ordering-page form .qator .ustun .ikki .bottom p {
+        font-size: 18px;
+    }
+    .ordering-page form .qator .ustun .ikki .bottom span {
+        font-size: 18px;
+    }
+    .ordering-page form .btn-wrap {
+        width: 200px;
+        height: 46px;
+    }
+}
+
+@media (max-width: 768px) {
+    .ordering-page form .user {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    .ordering-page form .user > div {
+        margin-bottom: 0px;
+        flex-direction: column;
+    }
+    .ordering-page form .user > div input {
+        width: 100%;
+        height: 46px;
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .ordering-page form .qator {
+        margin-bottom: 10px;
+        flex-direction: column;
+    }
+    .ordering-page form .qator .left {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .ordering-page form .qator .right {
+        width: 100%;
+    }
+    .ordering-page form .qator .ustun {
+        width: 100%;
+    }
+}
+
+@media (max-width: 576px) {
+    .ordering-page {
+        padding: 10px;
+    }
+    .ordering-page form .qator .right {
+        width: 100%;
+    }
+    .ordering-page form .qator .ustun {
+        flex-direction: column;
+    }
+    .ordering-page form .qator .ustun .bir {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .ordering-page form .qator .ustun .bir > div {
+        padding: 15px 10px;
+    }
+    .ordering-page form .qator .ustun .bir > div label {
+        width: calc(100% - 24px);
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .ordering-page form .qator .ustun .ikki {
+        width: 100%;
+    }
+    .ordering-page form .btn-wrap {
+        width: 100%;
+        height: 46px;
+    }
 }
